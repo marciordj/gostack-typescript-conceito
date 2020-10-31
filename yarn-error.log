@@ -1,0 +1,41 @@
+Arguments: 
+  /home/marciordj/.asdf/installs/nodejs/14.14.0/bin/node /usr/share/yarn/bin/yarn.js add typescrip -D
+
+PATH: 
+  /home/marciordj/.asdf/installs/nodejs/14.14.0/bin:/home/marciordj/.asdf/installs/nodejs/14.14.0/.npm/bin:/home/marciordj/.asdf/shims:/home/marciordj/.asdf/bin:/home/marciordj/.zinit/polaris/sbin:/home/marciordj/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marciordj/Android/Sdk/emulator:/home/marciordj/Android/Sdk/tools:/home/marciordj/Android/Sdk/tools/bin:/home/marciordj/Android/Sdk/platform-tools:/home/marciordj/.fzf/bin:/home/marciordj/Android/Sdk/emulator:/home/marciordj/Android/Sdk/tools:/home/marciordj/Android/Sdk/tools/bin:/home/marciordj/Android/Sdk/platform-tools:/home/marciordj/Android/Sdk/emulator:/home/marciordj/Android/Sdk/tools:/home/marciordj/Android/Sdk/tools/bin:/home/marciordj/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescrip: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140749:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141721:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
